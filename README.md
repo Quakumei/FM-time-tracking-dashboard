@@ -11,12 +11,9 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -34,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github link](https://github.com/Quakumei/FM-time-tracking-dashboard)
+- Live Site URL: [Live site](https://fm-time-tracking-dashboard-quakumei.vercel.app/)
 
 ## My process
 
@@ -50,18 +47,25 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- CSS variables via var() and :root
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    /* color */
+    --blue-100: hsl(195, 74%, 62%);
+    --blue-200: hsl(236, 100%, 87%);
+    ...
 }
 ```
+
+- General idea to use classes for literally everything
+- How to name selectors
+- Couple of VS Code shortcuts like .class which gives you div with class class and h3.class which gives you h3 with class class.
+- +- Grid
+- How do I tie JS and site together.
+- How do I deploy a project.
+- How do I commit a solution to Frontend Mentor.
+
+
 ### Useful resources
 
 - [Проект "Доска активностей" - HTML, CSS, JS для начинающих](https://www.youtube.com/watch?v=vGSsTk2opZA) - This video was useful as a reference.
